@@ -1,0 +1,32 @@
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    height: 40px;
+    border-top-right-radius:20px !important;
+    border-bottom-right-radius:20px !important ;
+    color: gray;
+}
+.sidebarOption:hover,
+.sidebarOption:hover >h3>a
+{
+ color:black;
+font-weight: bold !important;
+background-color:whitesmoke;
+cursor: pointer;
+}
+
+.sidebarOption> .MuiSvgIcon-root{
+    padding: 5px;
+}
+
+.sidebarOption >h3{
+    flex: 1;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.sidebarOption .link{
+    list-style: none;
+    text-decoration: none;
+}
